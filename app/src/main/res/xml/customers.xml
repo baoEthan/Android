@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customers xmlns:android="http://schemas.android.com/apk/res/android">
+    <customer  A.="John Doe" A_="john@example.com" A="555-555-5555" />
+<!--    <customer  tae="John Doe" email="john@example.com" tel="555-555-5555" />-->
+<!--    <customer  tae="John Doe" email="john@example.com" tel="555-555-5555" />-->
+</customers>

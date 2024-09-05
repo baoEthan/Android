@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myRelative"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView1"
+        android:text="发现有widget新版本，你想现在就安装吗？"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:text="现在更新"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/button2"
+        android:layout_below="@id/textView1"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:text="以后再说"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_alignRight="@id/textView1"
+        />
+</RelativeLayout>

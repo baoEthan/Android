@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <android.widget.Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_margin="5px"
+        android:background="@drawable/green"
+        android:text="我是普通图片背景" />
+
+    <android.widget.Button
+        android:id="@+id/button2"
+        android:layout_width="450px"
+        android:background="@drawable/green1"
+        android:layout_height="150px"
+        android:layout_margin="5px"
+        android:text="我是9-patch图片背景(按钮宽度和高度固定)"
+        />
+
+    <android.widget.Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="350px"
+        android:layout_margin="5px"
+        android:background="@drawable/button_state"
+        android:text="我是普通图片背景(单击会变色)" />
+
+    <android.widget.Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_margin="5px"
+        android:background="@drawable/button_state"
+        android:text="我是可用按钮" />
+
+    <android.widget.Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_margin="5px"
+        android:background="@drawable/green"
+        android:text="单击我可以让上面按钮变为可用" />
+</LinearLayout>

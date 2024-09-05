@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="title">
+        <item name="android:textSize">18px</item>
+        <item name="android:textColor">#f60</item>
+    </style>
+    <style name="child" parent="title">
+        <item name="android:padding">16px</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="wbg" >
+        <item name="android:windowBackground">#e6b</item>"
+    </style>
+</resources>

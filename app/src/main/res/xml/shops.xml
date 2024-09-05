@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aaa xmlns:android="http://schemas.android.com/apk/res/android">
+    <people name="John Doe" email="john@example.com" tel="555-555-5555" />
+    <shops name="John Doe" email="john@example.com" tel="555-555-5555" />
+</aaa>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/str1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="赤" />
+
+    <TextView
+        android:id="@+id/str2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="橙" />
+
+    <TextView
+        android:id="@+id/str3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="黃" />
+
+    <TextView
+        android:id="@+id/str4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="绿" />
+
+    <TextView
+        android:id="@+id/str5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="青" />
+
+    <TextView
+        android:id="@+id/str6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="藍" />
+
+    <TextView
+        android:id="@+id/str7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="紫" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1"
+        android:entries="@array/list"
+        />
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/imageView1"
+        android:src="@drawable/search1"
+        />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/edit_text_focused"
+        android:text="请输入文字"
+        />
+
+</LinearLayout>
