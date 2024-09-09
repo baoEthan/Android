@@ -22,12 +22,17 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String username = ((EditText) findViewById(R.id.username)).getText().toString();
                 String password = ((EditText) findViewById(R.id.password)).getText().toString();
-                Intent intent = new Intent(LoginActivity.this, TableActivity.class);
-                Bundle bundle = new Bundle();
-                bundle.putString("username", username);
-                bundle.putString("password", password);
-                Log.d("LoginActivity", "username: " + username + ", password: " + password);
-                intent.putExtras(bundle);
+//                Intent intent = new Intent(LoginActivity.this, TableActivity.class);
+//                Bundle bundle = new Bundle();
+//                bundle.putString("username", username);
+//                bundle.putString("password", password);
+//                Log.d("LoginActivity", "username: " + username + ", password: " + password);
+//                intent.putExtras(bundle);
+//                startActivity(intent);
+                Intent intent = new Intent();
+                intent.putExtra("username", username);
+                intent.putExtra("password", password);
+                intent.setClass(LoginActivity.this, TableActivity.class);
                 startActivity(intent);
             }
         });
